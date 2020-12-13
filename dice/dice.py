@@ -70,5 +70,9 @@ def DoDice():
 if __name__ == "__main__":
     haveTime = int(input("inputtime:"))
     ReadXML()
-    while DoDice():
-        continue
+    if haveTime == 0:
+        haveTime = 100
+        DoDice()
+    else:
+        while DoDice():
+            continue
