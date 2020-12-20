@@ -68,8 +68,14 @@ def DoDice():
     return True
 
 if __name__ == "__main__":
-    haveTime = int(input("inputtime:"))
+    haveTime = 0
+    if len(sys.argv) != 2:
+        haveTime = int(input("inputtime:"))
+    else:
+        haveTime = int(sys.argv[1])
+
     ReadXML()
+
     if haveTime == 0:
         haveTime = 100
         DoDice()
