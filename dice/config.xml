@@ -2,17 +2,18 @@
 
 <application project="todolist">
     <todolist id="01" weight="5" uniqueness="False" time="2" name="学英语"/>
-    <todolist id="02" weight="4" uniqueness="False" time="2" name="写代码"/>
+    <todolist id="02" weight="2" uniqueness="False" time="2" name="写代码"/>
     <todolist id="03" weight="4" uniqueness="False" time="2" name="看一本实体的技术书籍"/>
     <todolist id="04" weight="2" uniqueness="False" time="2" name="看一本电子的技术书籍"/>
     <todolist id="05" weight="4" uniqueness="False" time="2" name="看一本英文的技术书籍"/>
     <todolist id="06" weight="4" uniqueness="True" time="1" name="健身"/>
-    <todolist id="07" weight="7" uniqueness="False" time="1" name="读一本实体杂书"/>
-    <todolist id="08" weight="2" uniqueness="True" time="3" name="撸撸睡吧"/>
+    <todolist id="07" weight="3" uniqueness="False" time="1" name="读一本实体杂书"/>
+    <todolist id="08" weight="1" uniqueness="True" time="3" name="撸撸睡吧"/>
     <todolist id="09" weight="2" uniqueness="True" time="1" name="写个周记"/>
     <todolist id="10" weight="2" uniqueness="False" time="3" name="看个电影"/>
     <todolist id="11" weight="2" uniqueness="True" time="1" name="打扫卫生"/>
     <todolist id="12" weight="2" uniqueness="False" time="3" name="玩会儿游戏"/>
     <todolist id="13" weight="2" uniqueness="True" time="1" name="研究下理财"/>
-    <todolist id="14" weight="5" uniqueness="True" time="1" name="研究一些新玩意"/>
+    <todolist id="14" weight="3" uniqueness="True" time="1" name="研究一些新玩意"/>
+    <todolist id="15" weight="4" uniqueness="False" time="2" name="做个算法题"/>
 </application>
